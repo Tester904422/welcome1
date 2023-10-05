@@ -85,7 +85,7 @@ const Feed: FC<IProps> = ({
           </div>
         ))}
       </div>
-      <div ref={dinnerRef} className="w-full px-[10px] mt-[96px]">
+      {/* <div ref={dinnerRef} className="w-full px-[10px] mt-[96px]">
         <h1 className="text-[#FACE8D] font-dancing text-[64px] leading-none mb-[32px]">
           Dinner
         </h1>
@@ -117,7 +117,7 @@ const Feed: FC<IProps> = ({
             </div>
           </div>
         ))}
-      </div>
+      </div> */}
       <div ref={drinksRef} className="w-full px-[10px] mt-[96px]">
         <h1 className="text-[#FACE8D] font-dancing text-[64px] leading-none mb-[32px]">
           Drinks
