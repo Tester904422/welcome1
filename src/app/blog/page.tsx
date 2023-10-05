@@ -35,7 +35,7 @@ export default function Blog() {
         </div>
 
         <div className="w-full lg:w-[50%] pt-[96px] h-screen overflow-hidden overflow-y-scroll">
-          {/* <div className="w-full flex flex-col items-center">
+          <div className="w-full flex flex-col items-center">
             {blogData.map((value) => (
               <Link href={`/blog/${value.id}`} key={value.id}>
                 <div className="lg:h-[220px] w-full h-[367px] max-w-[680px] flex flex-col lg:flex-row mb-[48px] cursor-pointer border border-transparent hover:border-stone-400 rounded-[10px] py-[6px]">
@@ -60,7 +60,7 @@ export default function Blog() {
             ))}
           </div>
 
-          <div className="px-[50px]"> */}
+          <div className="px-[50px]">
             <Footer />
           </div>
         </div>
