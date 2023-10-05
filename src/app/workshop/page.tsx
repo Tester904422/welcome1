@@ -7,7 +7,7 @@ export default function Menu() {
   return (
     <>
       <Head>
-        <title>Restaurant Rock Star</title>
+        <title>Restaurant Rockstar</title>
       </Head>
       <main className="min-h-screen relative overflow-hidden">
         <WorkshopSection />

@@ -7,7 +7,7 @@ export default function Shop() {
   return (
     <>
       <Head>
-        <title>Restaurant Rock Star</title>
+        <title>Restaurant Rockstar</title>
       </Head>
       <main className="min-h-screen relative overflow-hidden">
         <ShopSection />

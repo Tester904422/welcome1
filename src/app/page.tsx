@@ -8,13 +8,13 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Restaurant Rock Star</title>
+        <title>Restaurant Rockstar</title>
       </Head>
 
       <main className="min-h-screen relative overflow-hidden w-full">
         <section className="!fixed inset-0 min-h-screen w-full bg-transparent flex flex-col items-center justify-between p-8 md:p-12 z-[20]">
           {/* <Link href="/" className="font-semibold cursor-pointer">
-            Rock Star
+            Rockstar
           </Link> */}
 
           <div className="flex flex-col items-center">
@@ -25,7 +25,7 @@ export default function Home() {
               Hotdogs
             </h1>
             <p className="text-xl md:text-[23px] text-center md:text-start mt-[20px] md:max-w-[600px]">
-              Never Ever Tasted!
+              Ever Tasted!
             </p>
 
             <div className="w-full flex-col justify-center max-w-[650px]">

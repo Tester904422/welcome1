@@ -20,7 +20,7 @@ export default function Blog() {
           className="w-full lg:w-[50%] p-12 flex flex-col justify-between items-center min-h-screen h-full"
         >
           <Link href="/" className="font-semibold cursor-pointer">
-            Rock Star
+            Rockstar
           </Link>
           <div className="text-center">
             <h2 className="text-[#FACE8D] font-dancing text-[80px] leading-none">

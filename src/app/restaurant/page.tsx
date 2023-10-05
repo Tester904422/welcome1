@@ -9,7 +9,7 @@ export default function Restaurant() {
   return (
     <>
       <Head>
-        <title>Restaurant Rock Star</title>
+        <title>Restaurant Rockstar</title>
       </Head>
 
       <main className="min-h-screen relative overflow-hidden">
@@ -26,7 +26,7 @@ export default function Restaurant() {
               Hotdogs
             </h1>
             <p className="text-[20px] md:text-[23px] text-center md:text-start mt-[20px] max-w-[600px]">
-              Never Ever Tested!
+              Ever Tested!
             </p>
 
             <div className="w-full flex-col justify-center max-w-[650px]">
