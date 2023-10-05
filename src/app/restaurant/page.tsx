@@ -20,11 +20,11 @@ export default function Restaurant() {
 
           <div className="w-full flex flex-col items-center">
             <h2 className="text-[#FACE8D] font-dancing text-[50px] md:text-[80px] leading-none">
-              The pure taste of
+              The pure taste of Hotdogs
             </h2>
-            <h1 className="font-medium text-[55px] md:text-[120px] lg:text-[160px] leading-none">
-              Hotdogs
-            </h1>
+            {/* <h1 className="font-medium text-[55px] md:text-[120px] lg:text-[160px] leading-none">
+              
+            </h1> */}
             <p className="text-[20px] md:text-[23px] text-center md:text-start mt-[20px] max-w-[600px]">
               Ever Tested!
             </p>
