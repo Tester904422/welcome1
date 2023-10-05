@@ -33,7 +33,7 @@ export default function Blog() {
 
           <NavigationFooter />
         </div>
-
+{/* 
         <div className="w-full lg:w-[50%] pt-[96px] h-screen overflow-hidden overflow-y-scroll">
           <div className="w-full flex flex-col items-center">
             {blogData.map((value) => (
@@ -58,7 +58,7 @@ export default function Blog() {
                 </div>
               </Link>
             ))}
-          </div>
+          </div> */}
 
           <div className="px-[50px]">
             <Footer />
