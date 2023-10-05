@@ -19,12 +19,12 @@ const Nav: FC<IProps> = ({
 }) => {
   return (
     <div className="min-h-[74px] w-full flex justify-center items-center">
-      <button
+      {/* <button
         onClick={() => navigationHandler(startersRef)}
         className="font-light text-[#FACE8D]"
       >
         Starters
-      </button>
+      </button> */}
       <button
         onClick={() => navigationHandler(breakfastRef)}
         className="font-light hover:text-[#FACE8D] text-white ml-[28px] md:ml-[48px]"
