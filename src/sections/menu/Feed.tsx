@@ -20,7 +20,7 @@ const Feed: FC<IProps> = ({
 }) => {
   return (
     <div className="mt-[80px] max-w-[628px] w-full overflow-hidden overflow-y-scroll">
-      <div ref={startersRef} className="w-full px-[10px]">
+      {/* <div ref={startersRef} className="w-full px-[10px]">
         <h1 className="text-[#FACE8D] font-dancing text-[64px] leading-none mb-[32px]">
           Starters
         </h1>
@@ -51,10 +51,10 @@ const Feed: FC<IProps> = ({
             </div>
           </div>
         ))}
-      </div>
+      </div> */}
       <div ref={breakfastRef} className="w-full px-[10px] mt-[96px]">
         <h1 className="text-[#FACE8D] font-dancing text-[64px] leading-none mb-[32px]">
-          Breakfast
+          Breakfast / Lunch
         </h1>
         {menuData.breakfast.map((item) => (
           <div
