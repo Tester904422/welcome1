@@ -19,11 +19,11 @@ export default function Home() {
 
           <div className="flex flex-col items-center">
             <h2 className="text-[#FACE8D] font-dancing text-2xl sm:text-[40px] md:text-[60px] lg:text-[80px] leading-none">
-              The pure taste of
+              The pure taste of Hotdogs
             </h2>
-            <h1 className="font-medium text-5xl sm:text-6xl md:text-[90px] lg:text-[160px] leading-none">
+            {/* <h1 className="font-medium text-5xl sm:text-6xl md:text-[90px] lg:text-[160px] leading-none">
               Hotdogs
-            </h1>
+            </h1> */}
             <p className="text-xl md:text-[23px] text-center md:text-start mt-[20px] md:max-w-[600px]">
               Ever Tasted!
             </p>
