@@ -29,14 +29,14 @@ const Nav: FC<IProps> = ({
         onClick={() => navigationHandler(breakfastRef)}
         className="font-light hover:text-[#FACE8D] text-white ml-[28px] md:ml-[48px]"
       >
-        Breakfast
+        Breakfast / Lunch
       </button>
-      <button
+      {/* <button
         onClick={() => navigationHandler(dinnerRef)}
         className="font-light hover:text-[#FACE8D] text-white ml-[28px] md:ml-[48px]"
       >
         Dinner
-      </button>
+      </button> */}
       <button
         onClick={() => navigationHandler(drinksRef)}
         className="font-light hover:text-[#FACE8D] text-white ml-[28px] md:ml-[48px]"
