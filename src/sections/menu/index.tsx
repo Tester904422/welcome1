@@ -1,7 +1,7 @@
 import NavigationFooter from "@/components/NavigationFooter";
 import Link from "next/link";
 import { FC, MutableRefObject, useRef, useState } from "react";
-import Nav from "./Nav";
+//import Nav from "./Nav";
 import menuImg from "../../assets/menupage.jpg";
 import Feed from "./Feed";
 
@@ -47,13 +47,13 @@ const MenuSection: FC = () => {
       </div>
 
       <div className="w-full lg:w-[50%] flex flex-col items-center h-screen">
-        <Nav
+        {/* <Nav
           startersRef={startersRef}
           breakfastRef={breakfastRef}
           dinnerRef={dinnerRef}
           drinksRef={drinksRef}
           navigationHandler={scrollToSection}
-        />
+        /> */}
         <Feed
           startersRef={startersRef}
           breakfastRef={breakfastRef}
